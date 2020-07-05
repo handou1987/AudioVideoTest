@@ -62,14 +62,14 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-INCLUDEPATH += C:\third\opencv_420\mingw_32bit_debug\install\include \
-               C:\third\opencv_420\mingw_32bit_debug\install\include\opencv2 \
-               C:\third\ffmpeg\20200424-a501947-win32-dev\include \
-               C:\third\faac\include
+INCLUDEPATH += ..\third\opencv_420\mingw_32bit_debug\install\include \
+               ..\third\opencv_420\mingw_32bit_debug\install\include\opencv2 \
+               ..\third\ffmpeg\20200424-a501947-win32-dev\include \
+               ..\third\faac\include
 
-LIBS += C:\third\opencv_420\mingw_32bit_debug\install\x64\mingw\lib\libopencv_*  \
-        C:\third\ffmpeg\20200424-a501947-win32-dev\lib\lib*  \
-        C:\third\faac\lib\lib*
+LIBS += ..\third\opencv_420\mingw_32bit_debug\install\x64\mingw\lib\libopencv_*  \
+        ..\third\ffmpeg\20200424-a501947-win32-dev\lib\lib*  \
+        ..\third\faac\lib\lib*
 
 #INCLUDEPATH += C:\third\opencv_420\mingw_32bit_release\install\include \
 #               C:\third\opencv_420\mingw_32bit_release\g\install\include\opencv2 \
