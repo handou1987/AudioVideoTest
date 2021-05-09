@@ -1,0 +1,1 @@
+copy ..\build-recv_show-Desktop_Qt_5_9_0_MinGW_32bit-Debug\debug\recv_show.exe	..\output\win32\debug\

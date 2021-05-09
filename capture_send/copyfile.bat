@@ -1,0 +1,1 @@
+copy ..\build-capture_send-Desktop_Qt_5_9_0_MinGW_32bit-Debug\debug\capture_send.exe	..\output\win32\debug\
